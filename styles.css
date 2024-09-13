@@ -37,7 +37,13 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
-}
+    display: flex;
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;      /* Centers the content vertically */
+    text-align: center;       /* Centers the text within the content block */
+    min-height: 80vh;         /* Ensures the main content takes up a significant part of the page */
+    flex-direction: column;   /* Keeps everything in a column layout */
+  }
 
 footer {
     background-color: #f4f4f4;
