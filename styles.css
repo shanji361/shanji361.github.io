@@ -1,19 +1,29 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #d8bfbf; /* Light pastel brown/yellow color */
+    font-weight: 400; /* Increase font weight for better readability */
+    background-color: #f0f8f5; /* Light pastel background color */
 }
 
 header {
-    background-color: #f4f4f4;
     padding: 10px 0;
     text-align: center;
+    background-color: #b3e2e7; /* Pastel light blue background for header */
 }
 
 header h1 {
     margin: 0;
+    color: #6b4f4f; /* Darker pastel brown for header text */
+}
+
+nav {
+    background-image: url('matthew-landers-v8UgmRa6UDg-unsplash.jpg'); /* Update path if necessary */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 0;
 }
 
 nav ul {
@@ -28,7 +38,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #f4e1d2; /* Light pastel brown/yellow color for links */
+    font-weight: 500; /* Increase font weight for better readability */
 }
 
 nav ul li a:hover {
@@ -37,16 +48,11 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
-    display: flex;
-    justify-content: center;  /* Centers the content horizontally */
-    align-items: center;      /* Centers the content vertically */
-    text-align: center;       /* Centers the text within the content block */
-    min-height: 80vh;         /* Ensures the main content takes up a significant part of the page */
-    flex-direction: column;   /* Keeps everything in a column layout */
-  }
+    background-color: #e3f9f2; /* Light pastel green background for main content */
+}
 
 footer {
-    background-color: #f4f4f4;
+    background-color: #f6e4d7; /* Light pastel pink background for footer */
     text-align: center;
     padding: 10px 0;
     position: fixed;
@@ -54,13 +60,12 @@ footer {
     bottom: 0;
 }
 
-/* Style for the blue bubbly button */
 .btn-bubbly {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: #007BFF;
+    background-color: #a4c6f7; /* Light pastel blue background for button */
     border-radius: 25px;
     text-align: center;
     text-decoration: none;
@@ -68,18 +73,14 @@ footer {
     transition: all 0.3s ease-in-out;
 }
 
-/* Hover effect to give it a bubbly feel */
 .btn-bubbly:hover {
-    background-color: #0056b3;
+    background-color: #7aa1d4; /* Slightly darker pastel blue on hover */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
 }
 
-/* Active state for a press effect */
 .btn-bubbly:active {
-    background-color: #004080;
+    background-color: #5b8ac6; /* Even darker pastel blue on active state */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(0.95);
 }
-
-
