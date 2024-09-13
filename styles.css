@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #d8bfbf; /* Light pastel brown/yellow color */
-    font-weight: 400; /* Increase font weight for better readability */
+    color: #fff; /* White color for text */
+    font-weight: 700; /* Bold text */
     background-image: url('matthew-landers-v8UgmRa6UDg-unsplash.jpg'); /* Set background image */
     background-size: cover; /* Ensure the image covers the entire body */
     background-position: center; /* Center the background image */
@@ -13,16 +13,17 @@ body {
 header {
     padding: 10px 0;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background for header */
+    background-color: rgba(255, 255, 255, 0); /* Transparent background for header */
 }
 
 header h1 {
     margin: 0;
-    color: #6b4f4f; /* Darker pastel brown for header text */
+    color: #fff; /* White color for header text */
+    font-weight: 700; /* Bold header text */
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background for nav */
+    background-color: rgba(255, 255, 255, 0); /* Transparent background for nav */
     padding: 15px 0;
 }
 
@@ -38,8 +39,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #f4e1d2; /* Light pastel brown/yellow color for links */
-    font-weight: 500; /* Increase font weight for better readability */
+    color: #fff; /* White color for links */
+    font-weight: 700; /* Bold links */
 }
 
 nav ul li a:hover {
@@ -48,16 +49,13 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for main content */
+    background-color: rgba(255, 255, 255, 0.3); /* Slightly transparent background for main content */
 }
 
 footer {
-    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background for footer */
+    background-color: rgba(255, 255, 255, 0); /* Transparent background for footer */
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
 .btn-bubbly {
