@@ -46,3 +46,33 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+
+
+/* Style for the blue bubbly button */
+.btn-bubbly {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect to give it a bubbly feel */
+.btn-bubbly:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+/* Active state for a press effect */
+.btn-bubbly:active {
+    background-color: #004080;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+}
