@@ -1,84 +1,162 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #fff; /* White color for text */
-    font-weight: 700; /* Bold text */
-    background-image: url('matthew-landers-v8UgmRa6UDg-unsplash.jpg'); /* Set background image */
+    color: #895722; 
+    font-weight: 800; 
+    background-image: url('matthew-landers-v8UgmRa6UDg-unsplash.jpg');
     background-size: cover; /* Ensure the image covers the entire body */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent repeating the image */
 }
 
-header {
-    padding: 10px 0;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0); /* Transparent background for header */
+li {
+    font-weight: 600; 
+    line-height: 1.5; 
+    margin-bottom: 10px; 
 }
 
 header h1 {
+    font-family: 'Arial', sans-serif; 
+    font-weight: 800; 
+ 
+    text-align: center;
     margin: 0;
-    color: #fff; /* White color for header text */
-    font-weight: 700; /* Bold header text */
+    padding: 1rem 0;
+}
+
+main h2, main p, footer p {
+    font-family: 'Arial', sans-serif; 
+    font-weight: 750; /* Slightly bold */
+    line-height: 2; /* Double spacing */
+    margin-top: 20px;
+}
+
+p {
+    font-weight: 800; 
+    font-family: Arial, sans-serif; 
+}
+
+.indent {
+    text-indent: 30px; 
+}
+
+header {
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 10px;
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 0); /* Transparent background for nav */
-    padding: 15px 0;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 10px;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+nav li {
+    margin: 0 10px;
 }
 
-nav ul li a {
+nav a {
     text-decoration: none;
-    color: #fff; /* White color for links */
-    font-weight: 700; /* Bold links */
+    color: rgb(253, 248, 248); 
+    font-weight: bold; /* Bolded text */
+    font-weight: 800
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.profile-section {
+    text-align: center;
+    padding: 10px 0; 
 }
 
-main {
+.profile-picture {
+    display: inline-block;
+    border-radius: 50%;
+   
+    overflow: hidden;
+    width: 170px; 
+    height: 170px; 
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section {
+    max-width: 800px; 
+    margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.3); /* Slightly transparent background for main content */
+    background-color: rgba(252, 223, 211, 0.893); /* White background with some transparency */
+    border-radius: 10px; 
 }
 
 footer {
-    background-color: rgba(255, 255, 255, 0); /* Transparent background for footer */
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
+    color: rgb(250, 237, 237);
 }
 
+
+/* Bubbly button style */
 .btn-bubbly {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    color: white;
-    background-color: #a4c6f7; /* Light pastel blue background for button */
-    border-radius: 25px;
+    color: white; /* Text color */
+    background-color: #b25c1e; /* Brown color */
+    border-radius: 25px; /* Rounded corners */
     text-align: center;
     text-decoration: none;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    font-weight: bold; /* Make the text bold */
 }
 
+/* Hover effect to give it a bubbly feel */
 .btn-bubbly:hover {
-    background-color: #7aa1d4; /* Slightly darker pastel blue on hover */
+    background-color: #f8c280; 
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
 }
 
+/* Active state for a press effect */
 .btn-bubbly:active {
-    background-color: #5b8ac6; /* Even darker pastel blue on active state */
+    background-color: #835326; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(0.95);
+}
+
+nav a.active {
+    background-color: rgba(252, 223, 211, 0.893); /* Light background for active page */
+    color: #af5c21; /* Change text color to match the button */
+    border-radius: 10px; /* Optional: rounded corners for the active link */
+    padding: 10px; /* Optional: add padding for better visibility */
+}
+
+/* Style for the contact buttons list */
+.contact-buttons {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+}
+
+.contact-buttons li {
+    margin-bottom: 30px; /* Adds space between list items */
+}
+
+.contact-buttons a {
+    display: inline-block; /* Keeps the button appearance */
 }
