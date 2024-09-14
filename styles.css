@@ -1,5 +1,4 @@
 /* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,13 +10,11 @@ body {
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent repeating the image */
 }
-
 li {
     font-weight: 600; 
     line-height: 1.5; 
     margin-bottom: 10px; 
 }
-
 header h1 {
     font-family: 'Arial', sans-serif; 
     font-weight: 800; 
@@ -26,35 +23,29 @@ header h1 {
     margin: 0;
     padding: 1rem 0;
 }
-
 main h2, main p, footer p {
     font-family: 'Arial', sans-serif; 
     font-weight: 750; /* Slightly bold */
     line-height: 2; /* Double spacing */
     margin-top: 20px;
 }
-
 p {
     font-weight: 800; 
     font-family: Arial, sans-serif; 
 }
-
 .indent {
     text-indent: 30px; 
 }
-
 header {
     background: url('background-image.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 10px;
 }
-
 nav {
     background: url('background-image.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 10px;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -62,23 +53,19 @@ nav ul {
     display: flex;
     justify-content: center;
 }
-
 nav li {
     margin: 0 10px;
 }
-
 nav a {
     text-decoration: none;
     color: rgb(253, 248, 248); 
     font-weight: bold; /* Bolded text */
     font-weight: 800
 }
-
 .profile-section {
     text-align: center;
     padding: 10px 0; 
 }
-
 .profile-picture {
     display: inline-block;
     border-radius: 50%;
@@ -87,12 +74,10 @@ nav a {
     width: 170px; 
     height: 170px; 
 }
-
 .profile-picture img {
     width: 100%;
     height: auto;
 }
-
 .content-section {
     max-width: 800px; 
     margin: 0 auto;
@@ -100,7 +85,6 @@ nav a {
     background-color: rgba(252, 223, 211, 0.893); /* White background with some transparency */
     border-radius: 10px; 
 }
-
 footer {
     background: url('background-image.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -108,8 +92,6 @@ footer {
     padding: 10px;
     color: rgb(250, 237, 237);
 }
-
-
 /* Bubbly button style */
 .btn-bubbly {
     display: inline-block;
@@ -124,39 +106,33 @@ footer {
     transition: all 0.3s ease-in-out;
     font-weight: bold; /* Make the text bold */
 }
-
 /* Hover effect to give it a bubbly feel */
 .btn-bubbly:hover {
     background-color: #f8c280; 
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
 }
-
 /* Active state for a press effect */
 .btn-bubbly:active {
     background-color: #835326; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(0.95);
 }
-
 nav a.active {
     background-color: rgba(252, 223, 211, 0.893); /* Light background for active page */
     color: #af5c21; /* Change text color to match the button */
     border-radius: 10px; /* Optional: rounded corners for the active link */
     padding: 10px; /* Optional: add padding for better visibility */
 }
-
 /* Style for the contact buttons list */
 .contact-buttons {
     list-style-type: none; /* Removes bullet points */
     padding: 0; /* Removes padding */
     margin: 0; /* Removes margin */
 }
-
 .contact-buttons li {
     margin-bottom: 30px; /* Adds space between list items */
 }
-
 .contact-buttons a {
     display: inline-block; /* Keeps the button appearance */
 }
